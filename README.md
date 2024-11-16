@@ -145,7 +145,7 @@ Example of all settings. Not all ssettings are required. Read the breakdown belo
  * This setting only applies if update_method is api.
  * This is how often the api will poll for updates. This update method is not recommended.
 
-##Reporting Devices for Development
+## Reporting Devices for Development
 
 * The first step is to install the smartapp to the device
  * This is done by opening SmartThings on your phone and going to "My Home">"SmartApps">"JSON Complete API". Tap all devices and make sure it is enabled in the list.
@@ -155,7 +155,7 @@ Example of all settings. Not all ssettings are required. Read the breakdown belo
  * If it says "Device Added" then the device should appear in HomeKit. If specific function is missing, post the Device Added line and identify what you are missing from it.
 * If a large number of similar devices are Skipped or missing functionality, it may just be a Capability that is missing. If so, it will be listed in the "Unknown Capabilities" line item.
 
-##Errors while running
+## Errors while running
 
 * There have been alot of reports of errors causing issues with homebridge. Alot has been done to try and resolve this. Please post an issue for only this issue if you are incountering it.
 * If you receive an "error at req", this is normally caused by network issues and the plugin should always auto-recover. Please verify you have internet access on the device before posting about these. If you get one or two ENOTFOUND errors in the middle of the night, it is probably your modem resetting and is nothing to worry about. 
